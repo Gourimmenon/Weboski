@@ -1,0 +1,67 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Lexend+Deca&display=swap");
+
+body{
+    background-color: #090b1a;
+    color:white;
+    font-family: "Inter", sans-serif;
+}
+.wrapper{
+    border-radius: 16px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 8% 8% 8% 8%;
+    height: 75%;
+}
+span{
+    color:hsl(277, 64%, 61%);
+}
+
+.left-content{
+    background-color: hsl(244, 38%, 16%);
+   
+    
+}
+
+
+h1{
+    font-weight: 700;
+    font-size: 34px;
+    color: white;
+    margin:2em 1em 1em 2em;
+    margin-block-start: 1em;
+    width:75%;
+}
+p{
+    font-size: 13px;
+    margin:2em 1em 1em 5.25em;
+    
+    width:75%;
+    color: hsla(0, 0%, 100%, 0.75);
+}
+ul{
+    list-style-type: none;
+    grid-template-rows: 1fr 1fr;
+}
+.metric-wrapper{
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    text-align: left;
+    justify-content: stretch;
+    margin:2em 1em 1em 2em;
+    grid-row-gap: -10%;
+    
+}
+
+.metric{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    font-weight: bold;
+}
+.metric-title{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    font-size: 13px;
+}
+.right-content{
+    height: min-content;
+}
